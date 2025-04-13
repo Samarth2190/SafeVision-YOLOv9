@@ -35,7 +35,7 @@ This project uses the latest YOLOv9 model for detection, trained on custom-label
 ## 🛠️ Installation
 
 ```bash
-git clone https://github.com/Samarth2190/https://github.com/Samarth2190/SafeVision-YOLOv9.git
+git clone https://github.com/Samarth2190/SafeVision-YOLOv9.git
 cd SafeVision-YOLOv9
 pip install -r requirements.txt
 ```
