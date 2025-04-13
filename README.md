@@ -18,13 +18,10 @@ A powerful and real-time **PPE (Personal Protective Equipment) Detection System*
 
 ---
 
-## 📸 Demo
+## 📊 Metrics
+[![Metric1](assets/img1.png)]
+[![Metric2](assets/img2.png)]
 
-https://user-images.githubusercontent.com/yourusername/demo_video.mp4
-
-*(Insert a video/gif showing your model detecting PPE in real time)*
-
----
 
 ## 🧠 Model Architecture
 
@@ -44,55 +41,10 @@ cd PPE-Detector-YOLOv9
 pip install -r requirements.txt
 ```
 
-Make sure you have PyTorch and CUDA set up for GPU acceleration.
-
+PLease note this model was trained on Google colab 
 ---
 
-## 📂 Project Structure
 
-```
-PPE-Detector-YOLOv9/
-├── weights/                 # Trained YOLOv9 weights
-├── data/                    # Images / videos for testing
-├── detections/              # Output images with bounding boxes
-├── utils/                   # Helper scripts
-├── detect.py                # Inference script
-├── train.py                 # Training script
-├── README.md
-└── requirements.txt
-```
-
----
-
-## 🧪 Usage
-
-### ▶️ Inference on Images
-
-```bash
-python detect.py --source data/sample.jpg --weights weights/ppe_yolov9.pt
-```
-
-### 🎥 Inference on Webcam
-
-```bash
-python detect.py --source 0 --weights weights/ppe_yolov9.pt
-```
-
-### 🏋️‍♂️ Training (if you want to retrain)
-
-```bash
-python train.py --data data/ppe.yaml --epochs 100 --weights yolov9.pt
-```
-
----
-
-## 📊 Dataset
-
-- You can use [Roboflow](https://roboflow.com) or any annotated dataset with PPE labels.
-- Ensure labels are YOLO format (`.txt` files with class and bbox coordinates).
-- Sample classes: `helmet`, `glove`, `mask`, `vest`, `goggles`
-
----
 
 ## 📦 Requirements
 
@@ -101,7 +53,7 @@ python train.py --data data/ppe.yaml --epochs 100 --weights yolov9.pt
 - OpenCV
 - numpy
 - tqdm
-- matplotlib
+- cvzone
 - (and YOLOv9-specific dependencies)
 
 Install via:
@@ -127,16 +79,3 @@ Pull requests are welcome! Feel free to open issues or submit new features, bug 
 
 ---
 
-## 📜 License
-
-This project is licensed under the MIT License.
-
----
-
-## 🌐 Connect with Me
-
-- LinkedIn: [YourName](https://linkedin.com/in/yourprofile)
-- Twitter: [@yourhandle](https://twitter.com/yourhandle)
-- Portfolio: [yourportfolio.com](https://yourportfolio.com)
-
----
