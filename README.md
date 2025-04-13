@@ -1,8 +1,7 @@
-# 🦺 PPE Detection using YOLOv9
+# 🦺 SafeVision: PPE Detection using YOLOv9
 
 ![YOLOv9](https://img.shields.io/badge/YOLOv9-Real--Time--Detection-blue?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-yellow?style=for-the-badge)
-![License](https://img.shields.io/github/license/yourusername/PPE-Detector-YOLOv9?style=for-the-badge)
 
 A powerful and real-time **PPE (Personal Protective Equipment) Detection System** using the state-of-the-art **YOLOv9** architecture. Designed to identify helmets, safety vests, gloves, and masks in live video feeds or images — ensuring safety compliance across industrial, construction, and healthcare environments.
 
@@ -36,8 +35,8 @@ This project uses the latest YOLOv9 model for detection, trained on custom-label
 ## 🛠️ Installation
 
 ```bash
-git clone https://github.com/yourusername/PPE-Detector-YOLOv9.git
-cd PPE-Detector-YOLOv9
+git clone https://github.com/Samarth2190/https://github.com/Samarth2190/SafeVision-YOLOv9.git
+cd SafeVision-YOLOv9
 pip install -r requirements.txt
 ```
 
